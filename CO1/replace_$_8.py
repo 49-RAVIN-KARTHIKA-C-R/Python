@@ -1,4 +1,4 @@
-a=raw_input("Enter a string:")
+a=input("Enter a string:")
 b=a[0]
 s=a[1:len(a)]
 for i in range(len(s)):
