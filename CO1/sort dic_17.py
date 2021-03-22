@@ -1,6 +1,13 @@
-import operator
-d={0:8,1:5,2:6,3:9,4:4,5:0}
-acs=sorted(d.items(),key=operator.itemgetter(1))
-print("Ascending order",acs)
-ds=sorted(d.items(),key=operator.itemgetter(1),reverse=True)
-print("Descending order",ds)
+d={
+    "car":1,
+    "bike":6,
+    "train":2
+}
+l=list(d.items())
+l.sort()
+nl=dict(l)
+print("Ascending order is,",nl)
+l1=list(d.items())
+l1.sort(reverse=True)
+nl1=dict(l1)
+print("Descending order is,",nl1)    
