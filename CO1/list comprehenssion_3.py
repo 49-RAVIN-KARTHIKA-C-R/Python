@@ -26,4 +26,4 @@ print("Vowels :",list)
 
 word="lion"
 list=[ord(x) for x in word]
-print("Ordinal value:", word)
+print("Ordinal value:", list)
