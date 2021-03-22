@@ -1,6 +1,7 @@
-st = input("enter the string")
-c = 0
-for i in range(0, len(st)):
-    if (st[i] != ' '):
-        c = c + 1
-print("count=", c)
+str = input("Enter a string: ")
+count = 0
+for i in str:
+    if i.isalpha():
+        count += 1
+
+print("Number of charecters in "+str+" is: ", count)
