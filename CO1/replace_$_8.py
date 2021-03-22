@@ -1,9 +1,5 @@
-a=input("Enter a string:")
-b=a[0]
-s=a[1:len(a)]
-for i in range(len(s)):
-    if s[i]==a[0]:
-        b=b+"$"
-    else:
-        b=b+s[i]
-print(b)
+word=input("Enter the word:")
+first=word[0]
+word=word.replace(first,"$")
+word=first+word[1:]
+print(word)
