@@ -12,6 +12,6 @@ with open("city.csv", "w") as file:
     write.writerow({"place": "Palakkaadu", "name": "Aleena", "age": 13})
 with open("city.csv", "r") as file:
     read = csv.DictReader(file);
-    n = input("Enter the column name you want(place,name,age):")
+    n = input("Enter the  column name you want(place,name,age):")
     for i in read:
         print(i[n])
