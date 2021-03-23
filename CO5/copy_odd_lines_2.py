@@ -2,7 +2,7 @@
 
 f1 = open("demo1.txt", "w")
 f2 = open("demo2.txt", "w")
-n = int(input("Enter the number of lines:"))
+n = int(input("Enter the number of lines: "))
 for i in range(n):
     f1.write(input("Enter some text:")+"\n")
 # f1.write("hellowld\n")
