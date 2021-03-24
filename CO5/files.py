@@ -2,7 +2,7 @@
 
 l = list()
 f = open("demos.txt", "w")
-n = int(input("Enter  the number of lines:"))
+n = int(input("Enter  the  number of lines:"))
 for i in range(n):
     f.write(input("Enter some text:")+"\n")
 f.close()
